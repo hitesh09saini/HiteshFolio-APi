@@ -1,3 +1,32 @@
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: #000;
+  font-size: 1.3rem;
+}
+
+label{
+  color: #fff;
+}
+
 form{
-  margin-top: 80px;
+  width: 50%;
+  position: absolute;
+
+}
+
+
+#submit{
+  background-color: #078658;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }

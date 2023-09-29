@@ -8,7 +8,7 @@ function ContactForm() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_3yhomxg', 'template_55m2o7a', form.current, 'QO7CVs1_E4LzoHERM')
+    emailjs.sendForm('service_3yhomxg', 'template_55m2o7a', form.current, 'pYQWCsSu9q_SxLW53')
       .then((result) => {
         console.log(result.text);
         console.log("Message Sent");
@@ -22,14 +22,16 @@ function ContactForm() {
   return (
 
     <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+
+      <input type="text" name="user_name" placeholder='Name' />
+
+      <input type="email" name="user_email" placeholder='Your email' />
+      <label htmlFor="message">Message:</label>
+      <textarea name="message" id='message' placeholder='Hye !' />
+      <input type="submit" id='submit' value="Send" />
+
     </form>
+
 
   );
 }

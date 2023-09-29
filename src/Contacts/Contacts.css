@@ -1,15 +1,13 @@
 .contact-cont{
     height: 100vh;
-    padding-top: 40px;
     background-color: rgb(28, 28, 29);
     position: relative;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .info{
-    
      position: absolute;
      bottom: 30px;
      width: 60%;
