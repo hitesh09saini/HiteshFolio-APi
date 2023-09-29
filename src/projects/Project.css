@@ -5,6 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    padding-bottom: 0;
 }
 
 .projects-cont p {
@@ -17,7 +19,7 @@
 
 .files-projects {
     padding: 10px;
-    width: 90%;
+    width: auto;
     height: 85%;
     border: 2px solid #fff;
     overflow-y: scroll;
@@ -26,7 +28,7 @@
     flex-wrap: wrap;
     gap: 30px;
 }
-
+/* 
 .container {
     width: 30%;
     height: 194px;
@@ -147,7 +149,7 @@
     100% {
         background: #ffffff;
     }
-}
+} */
 
 
 /* card */
@@ -159,7 +161,7 @@
 }
 
 .project-card {
-    width: 300px;
+    width: 400px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -196,4 +198,11 @@
 
 .project-card a:hover {
     background-color: #0056b3;
+}
+
+@media screen and (max-width:620px) {
+    .project-card {
+     width: 100%;
+
+    }
 }

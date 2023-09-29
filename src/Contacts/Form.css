@@ -230,3 +230,12 @@ textarea:focus {
     transform: translateY(-8rem) scale(0.3, 0.5);
   }
 }
+
+
+@media screen and (max-width: 620px) {
+  
+.letter {
+  width: 70%;
+}
+
+}
