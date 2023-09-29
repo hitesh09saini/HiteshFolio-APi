@@ -1,4 +1,4 @@
-import './Form.css'
+
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -8,7 +8,7 @@ function ContactForm() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_3yhomxg', 'template_55m2o7a', form.current, 'pYQWCsSu9q_SxLW53')
+    emailjs.sendForm('service_3yhomxg', 'template_55m2o7a', form.current, 'CnH-TtgGn1JGZaTBC')
       .then((result) => {
         console.log(result.text);
         console.log("Message Sent");
