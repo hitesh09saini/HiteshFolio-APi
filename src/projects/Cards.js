@@ -4,7 +4,7 @@ const Cards = ({img,title,Description,Vlink,link}) => {
   return (
    
     <div className="project-card">
-      <img src={img} alt="Project Image" />
+      <img src={img} alt="Project" />
       <h2>{title}</h2>
       <p>{Description}</p>
       <div className='cards-btn'>

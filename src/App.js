@@ -41,7 +41,7 @@ function App() {
       <Skills id="skills" />
       <Projects id="projects" />
       <Contacts id="contacts" />
-      <div className={`path ${isVisible ? 'hidden':''}`} >
+      <div className={`path ${isVisible ? 'hidden':''} `} >
         <ul>
           <li><a
               href="#home"
