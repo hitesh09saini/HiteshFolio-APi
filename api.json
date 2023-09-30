@@ -94,17 +94,18 @@
             "img": "https://e1.pxfuel.com/desktop-wallpaper/110/81/desktop-wallpaper-tic-tac-toe-appstore-for-android-tic-tac-toe.jpg"
         },
         {
-            "title": "Project 8",
-            "description": "Description for Project 8",
+            "title": "Digital Clock",
+            "description": "This digital clock displays the current time with precision, including hours and minutes. The project showcases our programming and design skills, offering a user-friendly and efficient timekeeping tool suitable for various applications. Whether for personal use or integration into other projects, our digital clock is a reliable and stylish timekeeping solution.",
             "visit": {
-                "url": "https://example.com/project8",
-                "button_text": "Visit Project 8"
+                "url": "https://hitesh09saini.github.io/Clock/",
+                "button_text": "Visit"
             },
             "code": {
-                "repository_url": "https://github.com/yourusername/project8",
+                "repository_url": "https://github.com/hitesh09saini/Clock",
                 "button_text": "View Code on GitHub"
             },
-            "img": "https://example.com/project8-image.jpg"
+            "img": "https://github.com/hitesh09saini/FolioIMg/blob/main/Screenshot%202023-09-30%20235114.png?raw=true"
         }
+        
     ]
 }
