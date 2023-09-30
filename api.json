@@ -1,17 +1,19 @@
 {
     "projects": [
+
         {
+            "id": 1,
             "title": "ElectraOptima",
-            "description": "Description for Project 1",
+            "description": "Cool and Efficient: ElectraOptima Optimizing electricity made easy! ElectraOptima is my brainchild, revolutionizing energy management. With a few clicks, users can ask questions online, and our lightning-fast backend generates comprehensive reports in just 20 seconds. Say goodbye to energy waste and hello to a brighter, eco-friendly future with ElectraOptima!",
             "visit": {
-                "url": "https://example.com/project1",
-                "button_text": "Visit Project 1"
+                "url": "https://electraoptima.netlify.app/",
+                "button_text": "Visit"
             },
             "code": {
-                "repository_url": "https://github.com/yourusername/project1",
-                "button_text": "View Code on GitHub"
+                "repository_url": "https://github.com/hitesh09saini/ElectraOptima",
+                "button_text": "Code"
             },
-            "img": "https://example.com/project1-image.jpg"
+            "img": "https://github.com/hitesh09saini/FolioIMg/blob/main/Screenshot%202023-08-24%20181551.png?raw=true"
         },
         {
             "title": "Project 2",

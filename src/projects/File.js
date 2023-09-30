@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios'; // Import Axios
 import Cards from './Cards';
 
 const Files = () => {
@@ -7,11 +8,10 @@ const Files = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    fetch('https://hitesh09saini.github.io/FolioApi/api.json')
-      .then((res) => res.json())
-      .then((responseData) => {
-        console.log('Fetched data:', responseData);
-        setData(responseData.projects);
+    axios.get('https://hitesh09saini.github.io/FolioApi/api.json') // Use Axios to fetch data
+      .then((response) => {
+        console.log('Fetched data:', response.data);
+        setData(response.data.projects);
       })
       .catch((error) => {
         console.error('Fetch error:', error);
@@ -28,15 +28,14 @@ const Files = () => {
 
   return (
     <div className='files-projects' id='files-projects'>
-      
-      {visibleCards.map((item, index) => (
+      {visibleCards.map((item) => (
         <Cards
-          key={index}
           img={item.img}
           title={item.title}
           description={item.description}
           Vlink={item.visit.url}
           link={item.code.repository_url}
+          key={item.title} // Add a unique key for each card
         />
       ))}
     </div>

@@ -1,19 +1,20 @@
-import React from 'react'
+import React from 'react';
 
-const Cards = ({img,title,Description,Vlink,link}) => {
+const Cards = ({ img, title, description, Vlink, link }) => {
   return (
-   
     <div className="project-card">
-      <img src={img} alt="Project" />
+      <img 
+      src={img}
+      alt="new"
+      />
       <h2>{title}</h2>
-      <p>{Description}</p>
+      <p>{description}</p>
       <div className='cards-btn'>
-      <a href={Vlink}>Visit</a>
-      <a href={link}>Code</a>
+        <a href={Vlink}>Visit</a>
+        <a href={link}>Code</a>
       </div>
     </div>
-  
-  )
-}
+  );
+};
 
-export default Cards
+export default Cards;
