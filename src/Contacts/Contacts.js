@@ -12,6 +12,7 @@ const Contacts = ({id}) => {
       <ContactForm></ContactForm>
       <SocialLinks></SocialLinks>
 
+
       <p className='thanks'>Thankyou for visit 🙏</p>
     </div>
   )
