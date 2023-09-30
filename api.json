@@ -81,17 +81,17 @@
             "img": "https://example.com/project6-image.jpg"
         },
         {
-            "title": "Project 7",
-            "description": "Description for Project 7",
+            "title": "Tic Tac Toc",
+            "description": "Create a classic Tic-Tac-Toe game using JavaScript, HTML, and CSS. Build the game board, handle player turns, check for wins, and enable restart. A fun project to hone your coding skills and share with friends.",
             "visit": {
-                "url": "https://example.com/project7",
-                "button_text": "Visit Project 7"
+                "url": "https://hitesh09saini.github.io/web-tictactoc/",
+                "button_text": "Play"
             },
             "code": {
-                "repository_url": "https://github.com/yourusername/project7",
-                "button_text": "View Code on GitHub"
+                "repository_url": "https://github.com/hitesh09saini/web-tictactoc",
+                "button_text": "Code"
             },
-            "img": "https://example.com/project7-image.jpg"
+            "img": "https://e1.pxfuel.com/desktop-wallpaper/110/81/desktop-wallpaper-tic-tac-toe-appstore-for-android-tic-tac-toe.jpg"
         },
         {
             "title": "Project 8",
