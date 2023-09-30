@@ -28,6 +28,7 @@ const Files = () => {
 
   return (
     <div className='files-projects' id='files-projects'>
+      
       {visibleCards.map((item, index) => (
         <Cards
           key={index}

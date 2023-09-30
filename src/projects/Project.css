@@ -21,7 +21,7 @@
     padding: 10px;
     width: auto;
     height: 85%;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     overflow-y: scroll;
     align-self: flex-end;
     display: flex;

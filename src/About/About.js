@@ -43,7 +43,7 @@ const About = ({id}) => {
 
         <h2 className="timeline__item timeline__item--year">2020-2024</h2>
         <div className="timeline__item">
-          <h3 className="timeline__title">Electrical Engineering - (9.4 CGPE)</h3>
+          <h3 className="timeline__title">Electrical Engineering - (9.4 CGPA)</h3>
         </div>
       </div>
     </div>
