@@ -18,6 +18,15 @@ a{
   top: 0;
   left: 0;
   width: 100%;
+
+  
+}
+
+span{
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+  color: #fff;
 }
 
 ul{
@@ -84,12 +93,15 @@ li:hover{
   transform: translate(-50%, 120px);
   opacity: 0;
   animation: anim 1900ms ease forwards;
-  text-shadow: 0px 0px 5px #ff0101;
+  letter-spacing: 5px;
+ 
+
 }
 
 .hero h2:last-child {
   font-size: 160px;
   bottom: 40px;
+  letter-spacing: 5px;
   left: 50%;
   color: #0588af;
   transform: translate(calc(-50% + 100px), 0);
@@ -98,7 +110,7 @@ li:hover{
   text-shadow: 1px 22px 12px rgba(0, 0, 0, 0.4);
   animation: anim 1000ms ease forwards;
   animation-delay: 500ms;
-  text-shadow: 0px 0px 5px hsl(180, 100%, 50%);
+  
 }
 
 /* Media query for screens smaller than 768px */
@@ -110,6 +122,10 @@ li:hover{
   }
   ul{
     width: 60%;
+  }
+
+  span{
+    bottom: 200px;
   }
 
   /* Adjust the first child h1 for smaller screens */

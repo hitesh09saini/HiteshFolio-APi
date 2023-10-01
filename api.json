@@ -68,17 +68,17 @@
             "img": "https://example.com/project5-image.jpg"
         },
         {
-            "title": "Project 6",
-            "description": "Description for Project 6",
+            "title": "HiteshFolio",
+            "description": "I leveraged React and CSS to craft an engaging web app, seamlessly blending form and function. As a React developer and CSS enthusiast, I optimized performance and delivered an elegant user interface that sparks creativity and interaction. Join me in exploring this digital masterpiece.",
             "visit": {
-                "url": "https://example.com/project6",
-                "button_text": "Visit Project 6"
+                "url": "https://hitesh-folio.vercel.app/",
+                "button_text": "Visit "
             },
             "code": {
-                "repository_url": "https://github.com/yourusername/project6",
+                "repository_url": "https://github.com/hitesh09saini/HiteshFolio-APi",
                 "button_text": "View Code on GitHub"
             },
-            "img": "https://example.com/project6-image.jpg"
+            "img": "https://raw.githubusercontent.com/hitesh09saini/FolioIMg/main/Screenshot%202023-09-26%20013129.png"
         },
         {
             "title": "Tic Tac Toc",

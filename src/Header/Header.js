@@ -88,6 +88,9 @@ const Header = ({id}) => {
                 &hearts; Hitesh Saini
 
             </p>
+            <span>
+                FullStack Developer
+            </span>
 
         </div>
     )

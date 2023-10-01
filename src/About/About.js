@@ -16,7 +16,7 @@ const About = ({id}) => {
           <p>
             A tech enthusiast and a student, Hitesh Saini is on a mission to fuse
             the world of electrical engineering with the art of software development.
-            Using Java, frontend development skills, and an unyielding passion for
+            Using Java, fullStack development skills, and an unyielding passion for
             problem-solving, Hitesh crafts digital solutions that light up the web.
             Currently on an educational journey, Hitesh seeks to enhance his skills
             while embracing new challenges in the ever-evolving tech landscape.
