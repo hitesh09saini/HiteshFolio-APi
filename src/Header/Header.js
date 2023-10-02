@@ -89,7 +89,7 @@ const Header = ({id}) => {
 
             </p>
             <span>
-                FullStack Developer
+            {'< FullStack Developer/>'}
             </span>
 
         </div>

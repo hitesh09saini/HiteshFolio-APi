@@ -3,7 +3,6 @@
 import './skills.css'
 import ProgressBar from './ProgressBar';
 
-
 const Skills = ({id}) => {
   // const [i, setI] = useState(0);
   // const [text, setText] = useState('');
@@ -40,10 +39,11 @@ const Skills = ({id}) => {
         <ProgressBar title="MONGODB-85%" percentage="85" color="green"></ProgressBar>
         <ProgressBar title="EXPRESSJS-85%" percentage="85" color="yellow"></ProgressBar>
         <ProgressBar title="NODEJS-80%" percentage="80" color="blue"></ProgressBar>
-      
+       
 
         </div>
       </div>
+
     </div>
   );
 };
