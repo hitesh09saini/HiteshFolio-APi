@@ -80,6 +80,19 @@
             },
             "img": "https://raw.githubusercontent.com/hitesh09saini/FolioIMg/main/Screenshot%202023-09-26%20013129.png"
         },
+         {
+            "title": "ColorChanger",
+            "description": "I create this by using React.js, tailwindcss only for React learning.",
+            "visit": {
+                "url": "https://adorable-valkyrie-a7ba61.netlify.app/",
+                "button_text": "Visit "
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/colorChanger",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://raw.githubusercontent.com/hitesh09saini/FolioIMg/main/Screenshot%202023-10-02%20111528.png"
+        },
         {
             "title": "Tic Tac Toc",
             "description": "Create a classic Tic-Tac-Toe game using JavaScript, HTML, and CSS. Build the game board, handle player turns, check for wins, and enable restart. A fun project to hone your coding skills and share with friends.",
