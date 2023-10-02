@@ -68,6 +68,19 @@
             "img": "https://example.com/project5-image.jpg"
         },
         {
+            "title": "Tetris Game",
+            "description": "I designed and implemented a Tetris game using Canva for graphics, HTML for structure, CSS for styling, and JavaScript for interactivity. Experience the classic puzzle challenge with this web-based game, showcasing my front-end development skills in a fun and engaging way.",
+            "visit": {
+                "url": "https://hitesh09saini.github.io/Tetris/",
+                "button_text": "Visit Project 5"
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/Tetris",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://paskov.vmsoft-bg.com/wp-content/uploads/2023/04/banner-644x314.png"
+        },
+        {
             "title": "HiteshFolio",
             "description": "I leveraged React and CSS to craft an engaging web app, seamlessly blending form and function. As a React developer and CSS enthusiast, I optimized performance and delivered an elegant user interface that sparks creativity and interaction. Join me in exploring this digital masterpiece.",
             "visit": {
