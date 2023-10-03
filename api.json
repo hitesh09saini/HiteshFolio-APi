@@ -144,7 +144,8 @@
                 "button_text": "View Code on GitHub"
             },
             "img": "https://github.com/hitesh09saini/FolioIMg/blob/main/Screenshot%202023-09-30%20235114.png?raw=true"
-        },{
+        },
+        {
             "title": "Password Generator",
             "description": "Explore the world of web development with our React project, exclusively designed for learning. Powered by Tailwind CSS, this project offers a hands-on experience to hone your skills. Create responsive, component-based web applications, perfect for beginners and those looking to advance their React and Tailwind CSS expertise.",
             "visit": {
