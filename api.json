@@ -68,6 +68,19 @@
             "img": "https://example.com/project5-image.jpg"
         },
         {
+            "title": "Tic Tac Toc (Java)",
+            "description": "Designed and implemented a dynamic and efficient Tic-Tac-Toe game in Java, leveraging data structures and algorithms (DSA) for seamless gameplay. The project showcases my proficiency in Java programming and algorithmic problem-solving, making it a valuable addition to my portfolio.",
+            "visit": {
+                "url": "https://vscode.dev/github/hitesh09saini/new-TicTacToc",
+                "button_text": " "
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/new-TicTacToc",
+                "button_text": "Code "
+            },
+            "img": "https://raw.githubusercontent.com/hitesh09saini/FolioIMg/main/Screenshot%202023-10-03%20111845.png"
+        },
+        {
             "title": "Tetris Game",
             "description": "I designed and implemented a Tetris game using Canva for graphics, HTML for structure, CSS for styling, and JavaScript for interactivity. Experience the classic puzzle challenge with this web-based game, showcasing my front-end development skills in a fun and engaging way.",
             "visit": {
