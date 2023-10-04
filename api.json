@@ -106,19 +106,21 @@
             },
             "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-09-26%20013129.png"
         },
-         {
-            "title": "ColorChanger",
-            "description": "Explore the world of web development with our React project, exclusively designed for learning. Powered by Tailwind CSS, this project offers a hands-on experience to hone your skills. Create responsive, component-based web applications, perfect for beginners and those looking to advance their React and Tailwind CSS expertise.",
+
+        {
+            "title": "Currency Convertor",
+            "description": "Create a currency converter web app using React.js, Tailwind CSS, and an API. Users can select currencies, input amounts, and instantly see accurate conversion results. The app is responsive, visually appealing, and provides real-time exchange rate data for seamless currency conversions.",
             "visit": {
-                "url": "https://adorable-valkyrie-a7ba61.netlify.app/",
-                "button_text": "Visit "
+                "url": "https://frolicking-parfait-49d5fa.netlify.app/",
+                "button_text": "Visit Project 5"
             },
             "code": {
-                "repository_url": "https://github.com/hitesh09saini/colorChanger",
+                "repository_url": "https://github.com/hitesh09saini/currencyConvertor",
                 "button_text": "View Code on GitHub"
             },
-            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-10-02%20111528.png"
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-10-05%20014818.png"
         },
+        
         {
             "title": "Tic Tac Toc",
             "description": "Create a classic Tic-Tac-Toe game using JavaScript, HTML, and CSS. Build the game board, handle player turns, check for wins, and enable restart. A fun project to hone your coding skills and share with friends.",
@@ -157,6 +159,19 @@
                 "button_text": "View Code on GitHub"
             },
             "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-10-02%20114417.png"
+        },
+        {
+            "title": "ColorChanger",
+            "description": "Explore the world of web development with our React project, exclusively designed for learning. Powered by Tailwind CSS, this project offers a hands-on experience to hone your skills. Create responsive, component-based web applications, perfect for beginners and those looking to advance their React and Tailwind CSS expertise.",
+            "visit": {
+                "url": "https://adorable-valkyrie-a7ba61.netlify.app/",
+                "button_text": "Visit "
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/colorChanger",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-10-02%20111528.png"
         }
         
     ]
