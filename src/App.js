@@ -5,6 +5,7 @@ import './App.css';
 import Header from './Header/Header';
 import About from './About/About';
 import Skills from './Skills/Skills';
+// import Achivments from './Skills/Achivments';
 import Projects from './projects/Projects';
 import Contacts from './Contacts/Contacts';
 import CursorComponent from './Contacts/CursorComponent'
