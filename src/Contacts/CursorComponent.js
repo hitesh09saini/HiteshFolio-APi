@@ -1,56 +1,38 @@
-import React, { Component } from 'react';
-import './CursorComponent.css'; // Import the CSS file
+import React, { useState } from 'react';
+import './CursorComponent.css';
 
-class CursorComponent extends Component {
-  constructor(props) {
-    super(props);
+function CursorComponent() {
+  const [message, setMessage] = useState('');
 
-    this.state = {
-      cursorVisible: false,
-    };
-  }
+  const handleBackground = (e) => {
+    const cursorBody = document.querySelector('.cursorBody');
+   
 
-  componentDidMount() {
-    document.addEventListener('mousemove', this.handleMouseMove);
-    document.addEventListener('mouseout', this.handleMouseOut);
-  }
-
-  componentWillUnmount() {
-    document.removeEventListener('mousemove', this.handleMouseMove);
-    document.removeEventListener('mouseout', this.handleMouseOut);
-  }
-
-  handleMouseMove = (e) => {
-    const cursor = document.querySelector('#cursor');
-    const body = document.querySelector('.cursorBody');
-
-    cursor.style.opacity = 1;
-    cursor.style.top = e.pageY+ 'px';
-    cursor.style.left = e.pageX + 'px';
-
-    // Background
-    body.style.backgroundPositionY = e.pageY / -4 + 'px';
-    body.style.backgroundPositionX = e.pageX / -4 + 'px';
+    const xOffset = e.pageX - cursorBody.offsetWidth / 2;
+    const yOffset = e.pageY - cursorBody.offsetHeight / 2;
+    cursorBody.style.backgroundPosition = `${xOffset}px ${yOffset}px`;
   };
 
-  handleMouseOut = () => {
-    const cursor = document.querySelector('#cursor');
-    cursor.style.opacity = 0;
-  };
+ 
 
-  hello = () => {
-    document.getElementById('p').innerText = "🚀 Fresh full-stack engineer, eager to learn and grow. Let's chat about how I can bring value to your team! 😊👩‍💻";
-  };
-
-  render() {
-    return (
-      <div className='cursorBody' onClick={this.hello}>
-        <p>Tap here</p>
-        <div id="cursor" ></div>
-        <p id="p"></p>
-      </div>
+  const handleClick = () => {
+    setMessage(
+      "🚀 Fresh full-stack engineer, eager to learn and grow. Let's chat about how I can bring value to your team! 😊👩‍💻"
     );
-  }
+  };
+
+  return (
+    <div
+      className="cursorBody"
+      onMouseMove={handleBackground}
+     
+      onClick={handleClick}
+    >
+      <p>Tap here</p>
+      <div>{message}</div>
+    </div>
+
+  );
 }
 
 export default CursorComponent;

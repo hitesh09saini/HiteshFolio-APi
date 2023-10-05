@@ -1,30 +1,26 @@
-import React from 'react';
-import { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 import Header from './Header/Header';
 import About from './About/About';
 import Skills from './Skills/Skills';
-// import Achivments from './Skills/Achivments';
 import Projects from './projects/Projects';
 import Contacts from './Contacts/Contacts';
-import CursorComponent from './Contacts/CursorComponent'
+import CursorComponent from './Contacts/CursorComponent';
 
 function App() {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-   
     const listenToScroll = () => {
       const heightToHideFrom = 400;
-      const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      const winScroll = window.scrollY;
 
       if (winScroll > heightToHideFrom) {
         setIsVisible(false);
       } else {
         setIsVisible(true);
       }
-
     };
 
     window.addEventListener('scroll', listenToScroll);
@@ -32,39 +28,39 @@ function App() {
     return () => {
       window.removeEventListener('scroll', listenToScroll);
     };
+  }, []);
 
-
-  }, []); 
 
   return (
-    <div className="App">
+    <div className="App" >
       <Header id="home" />
       <About id="about" />
       <Skills id="skills" />
       <Projects id="projects" />
-      <CursorComponent/>
+      <CursorComponent />
       <Contacts id="contacts" />
-      <div className={`path ${isVisible ? 'hidden':''} `} >
+      <div className={`path ${isVisible ? 'hidden' : ''}`}>
         <ul>
-          <li><a
+          <li>
+            <a
               href="#home"
               onClick={(e) => {
                 e.preventDefault();
                 document.querySelector("#home").scrollIntoView({
-                  behavior: "smooth",
+                  behavior: "smooth"
                 });
               }}
             >
               Home
-            </a></li>
+            </a>
+          </li>
           <li>
-          
             <a
               href="#about"
               onClick={(e) => {
                 e.preventDefault();
                 document.querySelector("#about").scrollIntoView({
-                  behavior: "smooth",
+                  behavior: "smooth"
                 });
               }}
             >
@@ -77,7 +73,7 @@ function App() {
               onClick={(e) => {
                 e.preventDefault();
                 document.querySelector("#skills").scrollIntoView({
-                  behavior: "smooth",
+                  behavior: "smooth"
                 });
               }}
             >
@@ -90,7 +86,7 @@ function App() {
               onClick={(e) => {
                 e.preventDefault();
                 document.querySelector("#projects").scrollIntoView({
-                  behavior: "smooth",
+                  behavior: "smooth"
                 });
               }}
             >
@@ -103,7 +99,7 @@ function App() {
               onClick={(e) => {
                 e.preventDefault();
                 document.querySelector("#contacts").scrollIntoView({
-                  behavior: "smooth",
+                  behavior: "smooth"
                 });
               }}
             >

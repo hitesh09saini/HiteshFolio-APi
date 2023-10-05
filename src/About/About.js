@@ -2,13 +2,18 @@ import React from 'react'
 import './about.css';
 
 
-const About = ({id}) => {
+const About = ({ id }) => {
   return (
     <div className="about-container" id={id}>
-      
+
 
       <div className="about-me">
-        <div className="left">About</div>
+        <div className="left">About
+
+           <a href="https://drive.google.com/file/d/17RlA3x99jvbPiakmbkAt_3hYgU32Jev3/view" target="_blank" rel="noopener noreferrer">
+            <button class="button">Download Resume</button>
+          </a>
+        </div>
         <div className="right">
           <h2>
             Hitesh Saini <sub style={{ fontSize: '15px' }}>(HE/HIM)</sub>
