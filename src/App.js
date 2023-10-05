@@ -7,6 +7,7 @@ import About from './About/About';
 import Skills from './Skills/Skills';
 import Projects from './projects/Projects';
 import Contacts from './Contacts/Contacts';
+import CursorComponent from './Contacts/CursorComponent'
 
 function App() {
   const [isVisible, setIsVisible] = useState(true);
@@ -40,6 +41,7 @@ function App() {
       <About id="about" />
       <Skills id="skills" />
       <Projects id="projects" />
+      <CursorComponent/>
       <Contacts id="contacts" />
       <div className={`path ${isVisible ? 'hidden':''} `} >
         <ul>
