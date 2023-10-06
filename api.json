@@ -67,6 +67,20 @@
             },
             "img": "https://example.com/project5-image.jpg"
         },
+
+        {
+            "title": "CheckCode",
+            "description": "The Check Code Editor is a versatile web development tool supporting HTML, CSS, and JavaScript. It provides real-time previews, a user-friendly interface, customization options, collaborative coding, version control integration, built-in libraries, error handling, and cross-platform compatibility. It's your all-in-one coding solution for efficient and dynamic web development.",
+            "visit": {
+                "url": "https://check-code.netlify.app/",
+                "button_text": "Visit Project 5"
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/Check-Code",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-10-06%20143202.png"
+        },
         {
             "title": "Tic Tac Toc (Java)",
             "description": "Designed and implemented a dynamic and efficient Tic-Tac-Toe game in Java, leveraging data structures and algorithms (DSA) for seamless gameplay. The project showcases my proficiency in Java programming and algorithmic problem-solving, making it a valuable addition to my portfolio.",
