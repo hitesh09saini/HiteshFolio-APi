@@ -120,6 +120,19 @@
             },
             "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-09-26%20013129.png"
         },
+        {
+            "title": "myQR",
+            "description": "myQr simplifies text and URL-to-QR code conversion. Create QR codes for easy information sharing. Transform text into QR codes with ease. Streamlined for convenience. Share contact information, messages, and more effortlessly. Boost accessibility and efficiency with myQr.",
+            "visit": {
+                "url": "https://myor.netlify.app/",
+                "button_text": "Visit Project 5"
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/QRgenerator",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-10-06%20173727.png"
+        },
 
         {
             "title": "Currency Convertor",
