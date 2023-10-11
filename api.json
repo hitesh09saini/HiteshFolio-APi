@@ -17,7 +17,8 @@
         },
         {
             "title": "CollageID.com",
-            "description": "CollageID is a versatile platform for students from all colleges. You can search for colleges and students, create a personalized profile card using your roll number, share relationship status, projects, and contacts. Explore various colleges and students by filtering by branch, relationship status, and more. Connect and collaborate across campuses with ease.",
+            "description": "Work on Processing...",
+            "des":"CollageID is a versatile platform for students from all colleges. You can search for colleges and students, create a personalized profile card using your roll number, share relationship status, projects, and contacts. Explore various colleges and students by filtering by branch, relationship status, and more. Connect and collaborate across campuses with ease.",
             "visit": {
                 "url": "https://example.com/project2",
                 "button_text": "Visit Project 2"
