@@ -8,6 +8,7 @@ import Projects from './projects/Projects';
 import Contacts from './Contacts/Contacts';
 import CursorComponent from './Contacts/CursorComponent';
 
+
 function App() {
   const [isVisible, setIsVisible] = useState(true);
 
@@ -108,6 +109,7 @@ function App() {
           </li>
         </ul>
       </div>
+      
     </div>
   );
 }
