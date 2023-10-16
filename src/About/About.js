@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './about.css';
 
 
 const About = ({ id }) => {
+ const [like, setLike] = useState('fa-regular pop-up')
+  
   return (
     <div className="about-container" id={id}>
 
@@ -10,9 +12,15 @@ const About = ({ id }) => {
       <div className="about-me">
         <div className="left">About
 
-           <a href="https://drive.google.com/file/d/17RlA3x99jvbPiakmbkAt_3hYgU32Jev3/view" target="_blank" rel="noopener noreferrer">
-            <button class="button">Download Resume</button>
-          </a>
+          <div className='left-btn'>
+            <a href="https://drive.google.com/file/d/17RlA3x99jvbPiakmbkAt_3hYgU32Jev3/view" target="_blank" rel="noopener noreferrer" >
+              <button class="button">Download Resume</button>
+            </a>
+
+            <div id='likes'>
+              <i onClick={(e)=>setLike('fa-solid fill')} className={`${like} fa-heart fa-sm`} ></i>
+            </div>
+          </div>
         </div>
         <div className="right">
           <h2>
