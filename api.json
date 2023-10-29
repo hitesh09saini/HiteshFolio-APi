@@ -68,6 +68,19 @@
             },
             "img": "https://example.com/project5-image.jpg"
         },
+        {
+            "title": "Todo",
+            "description": "Elevate task management with our Todo ReactJS and TailwindCSS project, powered by Redux-ToolKit. An intuitive, user-friendly interface for effortless to-do list management. Organize tasks with style and efficiency.",
+            "visit": {
+                "url": "https://dulcet-gnome-2390f7.netlify.app/",
+                "button_text": "Visit Project 5"
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/ReactTodo",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-10-28%20170149.png"
+        },
 
         {
             "title": "CheckCode",
