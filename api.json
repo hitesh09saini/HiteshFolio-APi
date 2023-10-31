@@ -57,16 +57,29 @@
         },
         {
             "title": "Project 5",
-            "description": "Description for Project 5",
+            "description": "Description for Project 4",
             "visit": {
-                "url": "https://example.com/project5",
+                "url": "https://example.com/project4",
+                "button_text": "Visit Project 4"
+            },
+            "code": {
+                "repository_url": "https://github.com/yourusername/project4",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://example.com/project4-image.jpg"
+        },
+        {
+            "title": "Seekers",
+            "description": "I've crafted an innovative job seeker platform using React.js, APIs, and CSS, all hosted on StackBlitz. This cutting-edge project empowers job seekers to effortlessly access and apply for job opportunities through a highly responsive and interactive web application, promoting efficiency in the job search process.",
+            "visit": {
+                "url": "https://jobscom.netlify.app/",
                 "button_text": "Visit Project 5"
             },
             "code": {
-                "repository_url": "https://github.com/yourusername/project5",
+                "repository_url": "https://github.com/hitesh09saini/Jobs",
                 "button_text": "View Code on GitHub"
             },
-            "img": "https://example.com/project5-image.jpg"
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-10-31%20203942.png"
         },
         {
             "title": "Todo",
