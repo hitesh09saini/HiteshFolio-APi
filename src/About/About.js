@@ -13,7 +13,7 @@ const About = ({ id }) => {
         <div className="left">About
 
           <div className='left-btn'>
-            <a href="https://drive.google.com/file/d/17RlA3x99jvbPiakmbkAt_3hYgU32Jev3/view" target="_blank" rel="noopener noreferrer" >
+            <a href="https://drive.google.com/file/d/12SNL5NrCLLC-kAyjHXTtHsuXnZKmWkyU/view" target="_blank" rel="noopener noreferrer" >
               <button class="button">Download Resume</button>
             </a>
 
