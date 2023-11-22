@@ -96,6 +96,20 @@
         },
 
         {
+            "title": "Calculator",
+            "description": "Effortlessly compute with my React-powered calculator, seamlessly styled with Tailwind CSS. Experience a user-friendly interface, responsive design, and efficient calculations for a smooth mathematical journey.",
+            "visit": {
+                "url": "https://asb-design-calci.vercel.app/",
+                "button_text": "Visit Project 4"
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/ASB-Design-Calci",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-11-22%20200457.png"
+        },
+
+        {
             "title": "CheckCode",
             "description": "The Check Code Editor is a versatile web development tool supporting HTML, CSS, and JavaScript. It provides real-time previews, a user-friendly interface, customization options, collaborative coding, version control integration, built-in libraries, error handling, and cross-platform compatibility. It's your all-in-one coding solution for efficient and dynamic web development.",
             "visit": {
