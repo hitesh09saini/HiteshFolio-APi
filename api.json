@@ -107,6 +107,19 @@
             },
             "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-11-22%20200457.png"
         },
+        {
+            "title": "Quiz App",
+            "description": "I developed a dynamic quiz application using HTML, CSS, and JavaScript, enhanced with Tailwind CSS for a sleek design. This project showcases my proficiency in front-end technologies, offering an interactive user experience. From clean UI design to seamless functionality, it reflects my commitment to creating engaging web applications.",
+            "visit": {
+                "url": "https://hitesh09saini.github.io/Quiz/",
+                "button_text": "Visit Project 4"
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/Quiz",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot 2023-12-04 105127.png"
+        },
 
         {
             "title": "CheckCode",
