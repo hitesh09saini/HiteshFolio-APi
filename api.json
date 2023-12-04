@@ -162,7 +162,7 @@
         },
         {
             "title": "HiteshFolio",
-            "description": "I leveraged React and CSS to craft an engaging web app, seamlessly blending form and function. As a React developer and CSS enthusiast, I optimized performance and delivered an elegant user interface that sparks creativity and interaction. Join me in exploring this digital masterpiece.",
+            "description": "In my portfolio project, I utilized ReactJS and the MERN stack (MongoDB, Express.js, Node.js), enhanced by the sleek styling of Tailwind CSS. This dynamic web application showcases my skills in creating a visually appealing and functionally robust digital space, featuring advanced capabilities such as location tracking for an immersive user experience. Explore my portfolio for a comprehensive view of my work.",
             "visit": {
                 "url": "https://hitesh-folio.vercel.app/",
                 "button_text": "Visit "
