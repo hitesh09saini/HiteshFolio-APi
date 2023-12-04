@@ -13,6 +13,9 @@ function App() {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
+
+
+
     const listenToScroll = () => {
       const heightToHideFrom = 400;
       const winScroll = window.scrollY;
@@ -30,6 +33,57 @@ function App() {
       window.removeEventListener('scroll', listenToScroll);
     };
   }, []);
+
+
+  useEffect(() => {
+    const sendLocationToServer = async () => {
+      try {
+        // Get the user's location
+        const position = await getCurrentLocation();
+
+        // Send the location to the server with a custom name
+        await sendLocationToBackend('User Location', position.coords.latitude, position.coords.longitude);
+      } catch (error) {
+        console.error('Error obtaining or sending location:', error);
+      }
+    };
+
+    // Trigger the function when the component mounts
+    sendLocationToServer();
+  }, []); // Empty dependency array to ensure the effect runs only once on mount
+
+  const getCurrentLocation = () => {
+    return new Promise((resolve, reject) => {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(resolve, reject);
+      } else {
+        reject(new Error('Geolocation is not supported by this browser.'));
+      }
+    });
+  };
+
+  const sendLocationToBackend = async (name, latitude, longitude) => {
+    try {
+      const response = await fetch('https://hiteshfolio.onrender.com/api/loc', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name,
+          coordinates: [longitude, latitude],
+        }),
+      });
+
+      if (response.ok) {
+        console.log('Location sent to the server successfully');
+      } else {
+        console.error('Failed to send location to the server');
+      }
+    } catch (error) {
+      console.error('Error sending location to the server:', error);
+    }
+  };
 
 
   return (
@@ -109,7 +163,7 @@ function App() {
           </li>
         </ul>
       </div>
-      
+
     </div>
   );
 }
