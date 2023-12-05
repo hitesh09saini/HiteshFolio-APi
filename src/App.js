@@ -40,7 +40,8 @@ function App() {
       try {
         // Get the user's location
         const position = await getCurrentLocation();
-    
+         console.log( position.coords.latitude, position.coords.longitude);
+        //  console.log(getGeolocationName(position.coords.latitude, position.coords.longitude));
         // Send the location to the server with a custom name
         await sendLocationToBackend('User Location', position.coords.latitude, position.coords.longitude);
       } catch (error) {
@@ -65,14 +66,15 @@ function App() {
 
   const sendLocationToBackend = async (name, latitude, longitude) => {
     try {
-      const response = await fetch('https://hiteshfolio.onrender.com/api/loc', {
+      const response = await fetch('http://localhost:3000/api/loc', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           name,
-          coordinates: [longitude, latitude],
+          longitude,
+          latitude
         }),
       });
   
@@ -88,6 +90,26 @@ function App() {
     }
   };
   
+  
+  
+  // const getGeolocationName = async (latitude, longitude) => {
+  //   try {
+  //     const response = await fetch(
+  //       `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=YOUR_GOOGLE_MAPS_API_KEY`
+  //     );
+  
+  //     if (!response.ok) {
+  //       throw new Error('Failed to retrieve location name');
+  //     }
+  
+  //     const data = await response.json();
+  //     const locationName = data.results[0].formatted_address;
+  
+  //     return locationName;
+  //   } catch (error) {
+  //     throw new Error(`Error getting location name: ${error.message}`);
+  //   }
+  // };
 
   return (
     <div className="App" >
