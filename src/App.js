@@ -43,7 +43,7 @@ function App() {
          console.log( position.coords.latitude, position.coords.longitude);
         //  console.log(getGeolocationName(position.coords.latitude, position.coords.longitude));
         // Send the location to the server with a custom name
-        await sendLocationToBackend('User Location', position.coords.latitude, position.coords.longitude);
+        await sendLocationToBackend('name', position.coords.latitude, position.coords.longitude);
       } catch (error) {
         console.error('Error obtaining or sending location:', error.message);
       }
@@ -92,25 +92,6 @@ function App() {
   
   
   
-  // const getGeolocationName = async (latitude, longitude) => {
-  //   try {
-  //     const response = await fetch(
-  //       `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=YOUR_GOOGLE_MAPS_API_KEY`
-  //     );
-  
-  //     if (!response.ok) {
-  //       throw new Error('Failed to retrieve location name');
-  //     }
-  
-  //     const data = await response.json();
-  //     const locationName = data.results[0].formatted_address;
-  
-  //     return locationName;
-  //   } catch (error) {
-  //     throw new Error(`Error getting location name: ${error.message}`);
-  //   }
-  // };
-
   return (
     <div className="App" >
       <Header id="home" />
