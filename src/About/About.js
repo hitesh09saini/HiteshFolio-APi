@@ -1,10 +1,68 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './about.css';
 
 
 const About = ({ id }) => {
- const [like, setLike] = useState('fa-regular pop-up')
+  const [like, setLike] = useState('fa-regular pop-up')
+  const [Likes, setLikes] = useState('...');
+  const [clicked, setClicked] = useState(false);
+
+
   
+
+  const addLikes = async () => {
+    try {
+      const response = await fetch(`${process.env.REACT_APP_SERVER_URL}/api/likes`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+      console.log('Response status:', response.status);
+
+      if (response.ok) {
+        console.log('Like added to the server successfully');
+      } else {
+        console.error('Failed to add like to the server');
+      }
+    } catch (error) {
+      console.error('Error adding likes to the server:', error);
+    }
+  }
+
+  const handleLikes = async () => {
+    if (!clicked) {
+      setLike('fa-solid fill');
+      await addLikes();
+      await  fetchLikes();
+      setClicked(true);
+    }
+  }
+
+  const fetchLikes = async () => {
+    try {
+      const response = await fetch(`${process.env.REACT_APP_SERVER_URL}/api/likes`, {
+        method: 'GET',
+      });
+
+      console.log('Response status:', response.status);
+
+      if (response.ok) {
+        const responseData = await response.json();
+        setLikes(responseData.like); 
+        console.log('Like fetched from the server successfully');
+      } else {
+        console.error('Failed to fetch like from the server');
+      }
+    } catch (error) {
+      console.error('Error fetching like:', error);
+    }
+  };
+
+  useEffect(() => {
+    fetchLikes();
+  }, []);
+
   return (
     <div className="about-container" id={id}>
 
@@ -18,13 +76,18 @@ const About = ({ id }) => {
             </a>
 
             <div id='likes'>
-              <i onClick={(e)=>setLike('fa-solid fill')} className={`${like} fa-heart fa-sm`} ></i>
+              <i onClick={handleLikes} className={`${like} fa-heart fa-sm`} ></i>
             </div>
+
           </div>
         </div>
         <div className="right">
-          <h2>
-            Hitesh Saini <sub style={{ fontSize: '15px' }}>(HE/HIM)</sub>
+          <h2 style={{display:'flex', gap:'20px'}}>
+            Hitesh Saini <div>
+              <div style={{ fontSize: '15px', margin:'5px'}}>{Likes}<i style={{marginLeft:'10px'}} className={`fa-solid fill-regular fa-heart fa-sm`} ></i></div>
+              <div style={{ fontSize: '15px', margin:'5px' }}>(HE/HIM)</div>
+            </div>
+        
           </h2>
           <p>
             A tech enthusiast and a student, Hitesh Saini is on a mission to fuse

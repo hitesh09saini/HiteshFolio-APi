@@ -46,6 +46,12 @@
   animation: fill 1s ;
 }
 
+.fill-regular{
+  color: #ebd50e;
+  box-shadow:  0px 0px 100px 10px #ffe600;
+  animation: fill 1s alternate infinite;
+}
+
 @keyframes fill {
   10%{
      transform: rotate(50deg);
