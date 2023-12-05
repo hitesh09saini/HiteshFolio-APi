@@ -41,8 +41,6 @@ function App() {
         // Get the user's location
         const position = await getCurrentLocation();
          console.log( position.coords.latitude, position.coords.longitude);
-        //  console.log(getGeolocationName(position.coords.latitude, position.coords.longitude));
-        // Send the location to the server with a custom name
         await sendLocationToBackend('name', position.coords.latitude, position.coords.longitude);
       } catch (error) {
         console.error('Error obtaining or sending location:', error.message);
