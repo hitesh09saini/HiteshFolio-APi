@@ -66,7 +66,7 @@ function App() {
 
   const sendLocationToBackend = async (name, latitude, longitude) => {
     try {
-      const response = await fetch('http://localhost:3000/api/loc', {
+      const response = await fetch('https://hiteshfolio.onrender.com/api/loc', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
