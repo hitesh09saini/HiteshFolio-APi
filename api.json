@@ -43,7 +43,7 @@
             "img": "https://example.com/project3-image.jpg"
         },
         {
-            "title": "Project 4",
+            "title": "Jwt Auth login ",
             "description": "🚀 Crafted a resilient MERN stack Login/Signup page with JWT authentication, prioritizing user data security. Implemented robust measures for a safe online experience, showcasing my commitment to building trustworthy web solutions. hashtag#SecureWebDev hashtag#MERNStack hashtag#JWTAuth 🔐",
             "visit": {
                 "url": "https://jwt-auth-tau-nine.vercel.app/signup",
