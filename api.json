@@ -44,16 +44,16 @@
         },
         {
             "title": "Project 4",
-            "description": "Description for Project 4",
+            "description": "🚀 Crafted a resilient MERN stack Login/Signup page with JWT authentication, prioritizing user data security. Implemented robust measures for a safe online experience, showcasing my commitment to building trustworthy web solutions. hashtag#SecureWebDev hashtag#MERNStack hashtag#JWTAuth 🔐",
             "visit": {
-                "url": "https://example.com/project4",
+                "url": "https://jwt-auth-tau-nine.vercel.app/signup",
                 "button_text": "Visit Project 4"
             },
             "code": {
-                "repository_url": "https://github.com/yourusername/project4",
+                "repository_url": "https://github.com/hitesh09saini/Jwt-Auth",
                 "button_text": "View Code on GitHub"
             },
-            "img": "https://example.com/project4-image.jpg"
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot 2023-12-06 164908.png"
         },
         {
             "title": "Mern Login Page",
