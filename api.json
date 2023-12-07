@@ -42,6 +42,20 @@
             },
             "img": "https://example.com/project3-image.jpg"
         },
+
+        {
+            "title": "Simple Chat App",
+            "description": "🚀 Excited to unveil my latest MERN stack project – a dynamic public chat application! Leveraging MongoDB, Express.js, React.js, and Socket.io, it offers real-time interactions. Whether you're a chat enthusiast or developer, let's connect and explore the power of modern web development in fostering vibrant and instant connections! #MERNstack #PublicChat 🌐💬",
+            "visit": {
+                "url": "https://chatapp-qusc.onrender.com/",
+                "button_text": "Visit Project 4"
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/Socket.io",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot 2023-12-07 160158.png"
+        },
         {
             "title": "Jwt Auth login ",
             "description": "🚀 Crafted a resilient MERN stack Login/Signup page with JWT authentication, prioritizing user data security. Implemented robust measures for a safe online experience, showcasing my commitment to building trustworthy web solutions. hashtag#SecureWebDev hashtag#MERNStack hashtag#JWTAuth 🔐",
