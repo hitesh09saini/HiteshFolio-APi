@@ -1,7 +1,8 @@
-input, select, textarea {
+.mailform> form>input,
+.mailform> form>select,
+.mailform> form>textarea {
   width: 100%;
   padding: 12px;
-
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -11,22 +12,46 @@ input, select, textarea {
   font-size: 1.3rem;
 }
 
-label{
+.mailform> form>label {
   color: #fff;
 }
 
-form{
+
+.mailform {
   width: 50%;
   position: absolute;
-
 }
 
+.mailform> form {
+  width: 100%;
+  position: relative;
+}
 
-#submit{
+.mailform> form>#submit {
   background-color: #078658;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
+
+.mailform> form>#submit:hover {
+  background-color: #05442d !important;
+}
+
+.mailform> form>#submit:active {
+  color: rebeccapurple;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+

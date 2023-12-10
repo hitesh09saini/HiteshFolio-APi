@@ -1,19 +1,19 @@
 
 /* Default styles for text and images */
-nav{
+.hero-container >nav{
   display: flex;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
 }
-nav img{
+.hero-container > nav img{
 width: 50px;
 }
-a{
+.hero-container>a{
   text-decoration: none;
 }
 
-.fixed-header {
+.hero-container> .fixed-header {
   position: fixed;
   top: 0;
   left: 0;
@@ -22,14 +22,14 @@ a{
   
 }
 
-span{
+.hero-container >span{
   position: absolute;
   bottom: 100px;
   right: 10px;
   color: #fff;
 }
 
-ul{
+ ul{
   list-style: none;
   color: #fff;
   display: flex;
@@ -37,11 +37,11 @@ ul{
   justify-content: space-between;
 }
 
-li{
+ li{
   padding: 5px;
 }
 
-li:hover{
+ li:hover{
   background: #0000006b;
   border-bottom: 1px solid #fff;
 }

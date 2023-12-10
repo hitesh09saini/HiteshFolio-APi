@@ -1,6 +1,5 @@
 import React from 'react'
 import './Contacts.css'
-import './Form.css';
 
 import ContactForm from './ContactForm'
 import SocialLinks from './SocialLinks'
