@@ -41,7 +41,7 @@ function App() {
         // Get the user's location
         const position = await getCurrentLocation();
          console.log( position.coords.latitude, position.coords.longitude);
-        await sendLocationToBackend('name', position.coords.latitude, position.coords.longitude);
+        await sendLocationToBackend(position.coords.latitude, position.coords.longitude);
       } catch (error) {
         console.error('Error obtaining or sending location:', error.message);
       }
@@ -62,7 +62,7 @@ function App() {
     });
   };
 
-  const sendLocationToBackend = async (name, latitude, longitude) => {
+  const sendLocationToBackend = async ( latitude, longitude) => {
     try {
       const response = await fetch(`${process.env.REACT_APP_SERVER_URL}/api/loc`, {
         method: 'POST',
@@ -70,7 +70,6 @@ function App() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name,
           longitude,
           latitude
         }),
