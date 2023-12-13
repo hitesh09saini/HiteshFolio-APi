@@ -42,7 +42,19 @@
             },
             "img": "https://example.com/project3-image.jpg"
         },
-
+        {
+            "title": "MERN stack Todo List",
+            "description": "🚀 Just launched my MERN stack Todo List using Vite, React, and Tailwind CSS! ⚡️📝 Clean UI, MongoDB for data, and Express.js for a robust backend. Check it out live https://lnkd.in/d-2HpW6D. Excited to continue adding features and grateful for the fantastic open-source communities! 🙌 hashtag#MERNStack hashtag#Vite hashtag#React hashtag#TailwindCSS hashtag#WebDevelopment",
+            "visit": {
+                "url": "https://todobackend09.netlify.app/",
+                "button_text": "Visit Project 3"
+            },
+            "code": {
+                "repository_url": "https://github.com/hitesh09saini/TODOFrontend",
+                "button_text": "View Code on GitHub"
+            },
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot 2023-12-13 063738.png"
+        },
         {
             "title": "Simple Chat App",
             "description": "🚀 Excited to unveil my latest MERN stack project – a dynamic public chat application! Leveraging MongoDB, Express.js, React.js, and Socket.io, it offers real-time interactions. Whether you're a chat enthusiast or developer, let's connect and explore the power of modern web development in fostering vibrant and instant connections! #MERNstack #PublicChat 🌐💬",
