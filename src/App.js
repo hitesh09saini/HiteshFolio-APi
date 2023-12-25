@@ -39,14 +39,23 @@ function App() {
     const sendLocationToServer = async () => {
       try {
         // Get the user's location
-        const position = await getCurrentLocation();
-         console.log( position.coords.latitude, position.coords.longitude);
-        await sendLocationToBackend(position.coords.latitude, position.coords.longitude);
+        if ("geolocation" in navigator) {
+          // Request location permission
+          await navigator.geolocation.getCurrentPosition(
+            async function(position){
+              console.log(position.coords.latitude, position.coords.longitude);
+              await sendLocationToBackend(position.coords.latitude, position.coords.longitude);
+            }
+          );
+          
+        }
+
+
       } catch (error) {
         console.error('Error obtaining or sending location:', error.message);
       }
     };
-    
+
 
     // Trigger the function when the component mounts
     sendLocationToServer();
@@ -62,7 +71,7 @@ function App() {
     });
   };
 
-  const sendLocationToBackend = async ( latitude, longitude) => {
+  const sendLocationToBackend = async (latitude, longitude) => {
     try {
       const response = await fetch(`${process.env.REACT_APP_SERVER_URL}/api/loc`, {
         method: 'POST',
@@ -74,9 +83,9 @@ function App() {
           latitude
         }),
       });
-  
+
       console.log('Response status:', response.status);
-  
+
       if (response.ok) {
         console.log('Location sent to the server successfully');
       } else {
@@ -86,9 +95,9 @@ function App() {
       console.error('Error sending location to the server:', error);
     }
   };
-  
-  
-  
+
+
+
   return (
     <div className="App" >
       <Header id="home" />
