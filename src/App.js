@@ -42,12 +42,12 @@ function App() {
         if ("geolocation" in navigator) {
           // Request location permission
           await navigator.geolocation.getCurrentPosition(
-            async function(position){
+            async function (position) {
               console.log(position.coords.latitude, position.coords.longitude);
               await sendLocationToBackend(position.coords.latitude, position.coords.longitude);
             }
           );
-          
+
         }
 
       } catch (error) {
