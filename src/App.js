@@ -50,7 +50,6 @@ function App() {
           
         }
 
-
       } catch (error) {
         console.error('Error obtaining or sending location:', error.message);
       }
