@@ -30,17 +30,17 @@
             "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot%202023-10-11%20153704.png"
         },
         {
-            "title": "Project 3",
-            "description": "Description for Project 3",
+            "title": "TaskBoard",
+            "description": "Welcome to Taskboard 🚀, your dynamic MERNstack solution for efficient task management. Create 📋 multiple lists, each housing customizable tasks with status updates. Enjoy a secure platform 🔒 where users can seamlessly edit ✏️, add ➕, delete 🗑️, and effortlessly drag-and-drop tasks between lists. Elevate your productivity with Taskboard, simplifying your workflow with ease. 🌟",
             "visit": {
-                "url": "https://example.com/project3",
+                "url": "https://task-board-front.vercel.app/",
                 "button_text": "Visit Project 3"
             },
             "code": {
-                "repository_url": "https://github.com/yourusername/project3",
+                "repository_url": "https://github.com/hitesh09saini/TaskBoardFront",
                 "button_text": "View Code on GitHub"
             },
-            "img": "https://example.com/project3-image.jpg"
+            "img": "https://hitesh09saini.github.io/FolioIMg/Screenshot 2023-12-31 143139.png"
         },
         {
             "title": "MERN stack Todo List",
