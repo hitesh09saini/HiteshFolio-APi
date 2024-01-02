@@ -71,7 +71,7 @@ const About = ({ id }) => {
         <div className="left">About
 
           <div className='left-btn'>
-            <a href="https://drive.google.com/file/d/12SNL5NrCLLC-kAyjHXTtHsuXnZKmWkyU/view" target="_blank" rel="noopener noreferrer" >
+            <a href="https://drive.google.com/file/d/1otqogxi3_-A5XOISpITj1ABcbROAWEVM/view" target="_blank" rel="noopener noreferrer" >
               <button class="button">Download Resume</button>
             </a>
 
