@@ -40,6 +40,7 @@ const Skills = ({id}) => {
         <ProgressBar title="MYSQl-80%" percentage="80" color="blue"></ProgressBar>
         <ProgressBar title="EXPRESSJS-85%" percentage="85" color="yellow"></ProgressBar>
         <ProgressBar title="NODEJS-80%" percentage="80" color="blue"></ProgressBar>
+        <ProgressBar title="NextJS-80%" percentage="80" color="dark"></ProgressBar>
         
         </div>
       </div>
